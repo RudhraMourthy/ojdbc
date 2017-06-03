@@ -7,7 +7,7 @@ public class Database {
 		{
 			Connection con = null;
 	Class.forName("oracle.jdbc.driver.OracleDriver");
-	con = DriverManager.getConnection("Jdbc:Oracle:thin:@orcl.rmk.ac.in:1521:orcl","scott","tiger");
+	//con = DriverManager.getConnection("Jdbc:Oracle:thin:@orcl.rmk.ac.in:1521:orcl","scott","tiger");
 	if(con != null)
 	System.out.println("Connection successfull");
 	else
